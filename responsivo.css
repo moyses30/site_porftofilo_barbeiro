@@ -1,0 +1,253 @@
+
+@media screen and (max-width: 773px){
+    header .menu-desktop , header .btn-contato{ /* Esconder o menu desktop e o botão contato*/
+        display: none; /* Esconder o menu desktop*/ 
+    }
+
+    header .btn-menu-mob{
+        display: block; /* Aparece no menu Mobile*/
+    }
+   
+}
+
+@media screen and (max-width: 635px){
+    /*responsivo da hero*/
+
+    .hero-site .txt-hero h1 {
+        font-size: 3em;
+        line-height: 70px;
+        font-weight: 200;
+            
+        
+    }
+    
+    .hero-site .txt-hero h1 span {
+        display: block;
+        font-weight: 800;
+    }
+    
+    .hero-site .txt-hero p {
+        font-size: 20px;
+        font-weight: 300;
+       
+        
+    }
+    
+    .hero-site .txt-hero p span{
+        display: inline; /*para ficar na mesma linha*/
+    }
+
+    .hero-site button{
+        width: 320px;
+        height: 60px;
+        background-color: transparent;
+        border: 1px solid white ;
+        color: white;
+        cursor: pointer;
+        transition: .5s;
+        font-size: 20px;
+    }
+    
+    .hero-site button:hover{
+
+        background-color: white;
+        color: black;
+    }
+    
+    /*responsivo das vantanges*/
+
+    section .vantagens {
+        padding: 80px 0;
+    }
+    
+    .vantagens .itens-conteneir { 
+        
+
+         flex-direction: column; /* Coloca os elementos em coluna*/
+    }
+    
+    .vantagens .itens-conteneir .img-itens img{
+        width: 100%; /*Ajusta o tamanho das imagens*/
+    }
+
+    .vantagens .itens-conteneir .txt-itens p{
+        margin-bottom: 20px; /*seprara os blocos*/
+        
+    } 
+    
+    .vantagens .itens-conteneir  .item-1 {
+        order: 1; /* Coloca o primeiro item em cima*/
+    }
+
+    .vantagens .itens-conteneir .item-2 {
+        order: 0; /* Coloca o primeiro item em cima*/
+    }
+    
+    .itens-conteneir .txt-itens h3 span{
+        font-weight: 200px;
+        
+       
+    }
+
+    .itens-conteneir .txt-itens h3{
+        text-align: center;
+    }
+
+    /*Estilo botão de contato*/
+
+    section.contato {
+        
+        margin-top: 20px; /*seprara os blocos*/
+    }
+    
+    
+    .txt-contato, .icons-contato {
+        display: block; /*Coloca os elementos um embaixo do outro*/
+        width: 100%;
+       
+    }
+    
+    .contato .txt-contato h3 {
+        font-size: 2em;
+        line-height: 40px;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+    
+    .contato .txt-contato h3 span{    
+        display: block;
+        font-weight: 700;
+    }
+    
+    .contato .txt-contato  p {
+        font-size: 1.5em;
+        
+    }
+    
+     .txt-contato{
+        padding: 20px;
+    }
+    
+   
+    
+    .contato .icons-contato button {
+        
+        width:  100%;
+        
+    }
+    
+    .contato .icons-contato button i  {
+        font-size: 24px;
+    }
+    
+   
+    
+    .contato .icons-contato button:hover i, .contato .icons-contato button:hover {
+       background-color: black;
+        color: white;
+        transition: .5s;
+    }
+
+    /* ===================FIM ============================== botão contato */
+
+    /* Estilo da sessão hoteis*/
+
+     .hoteis  h3{
+        font-size: 3em;
+        line-height: 50px;
+        font-weight: 200;
+    }
+    
+
+    
+    .hoteis p {
+        margin: 20px 0;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .hoteis button {
+        width: 220px;
+        height: 60px;
+    }
+
+    /*fim do estilo da sessão hoteis*/
+
+    /*Estilo da sessão como funciona*/
+
+    section.como-funciona{
+        padding: 80px 0;
+    }
+    
+    .txt-funciona, .instrucoes {
+       display: block; 
+       width:100% ;
+       
+    }
+    
+    .como-funciona .txt-funciona{ /*Mover o como funciona*/
+        position: static; /* Coloca o bloco como funciona embaixo do bloco instruções , deixa o como funcina parado*/
+        padding-bottom: 35px;
+       
+    }
+    .como-funciona .txt-funciona h3{
+        font-size: 4em;
+        line-height: 50px;
+       font-weight: 200px;
+    }
+    
+    .como-funciona .txt-funciona h3 span{
+        display: block;
+        font-weight: 300px;
+    }
+    
+    .instrucoes .instru-box{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        text-align: center; /* Coloca o texto no centro*/
+    }
+    /*FIM do estilo da sessão como funciona*/
+
+    /*Estilo sessão fotter*/
+    footer{
+        background-color: #000;
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+    footer .top-footer button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    }
+    
+    footer .top-footer button:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    
+    
+    
+    footer .middle-footer a {
+        color: #fff;
+        margin: 15px 0;
+        display: block;
+    }
+    
+   
+    
+    footer .bottom-fotter p {
+        color: #fff;
+    }
+    /* fim Estilo do fotter*/
+}
+    
